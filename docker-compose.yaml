@@ -25,6 +25,7 @@ services:
       - web_network
     environment:
       PMA_ARBITRARY: 1
+      PMA_ABSOLUTE_URI: http://localhost:70
     ports:
       - "70:80"
 
